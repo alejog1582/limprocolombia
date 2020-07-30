@@ -1,0 +1,144 @@
+body{
+  color: rgba(2,0,36,1);
+  font-family: 'Open Sans', sans-serif;
+}
+.titulo{
+  font-family: 'Roboto', sans-serif!important;
+}
+#logo_navbar{
+  width: 5em;
+  height: 5em;
+}
+
+#barra_menu{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,37,142,1) 35%,rgba(0,212,255,1)  100%);
+  font-family: 'Roboto', sans-serif!important;
+}
+
+#texto_menu{
+  color: white;
+}
+
+#img_principal{
+  width: 10em;
+  height: 10em;
+  align-self: center;
+}
+#boton_principal{
+  background-color: #22c7c0!important;
+  color: white!important;  
+}
+.card_principal{
+  background-color: #00258e!important;
+  color: white;
+}
+.card_secundaria{
+  background-color: #dde6fc!important;
+  
+}
+#login{
+  margin-right: 1rem!important;
+  margin-bottom: 1rem!important;
+  background-color: #22c7c0!important;
+  color: white!important;
+}
+#boton_principal2{
+  background-color: #00258e;
+  color: white!important;  
+}
+#boton_principal1{
+  background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372)!important;
+  color: white!important;  
+}
+
+#columnas_botones{
+  text-align: center;
+}
+.footer{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,37,142,1) 35%,rgba(0,212,255,1)  100%);
+  color: white !important;
+  font-family: 'Roboto', sans-serif!important;
+}
+
+#redes_sociales{
+  font-size: 2em; 
+  margin-right: 0.5em;
+  color: white;
+}
+
+#hr_footer{
+  background-color: white;
+}
+
+#contacto_footer{
+  color: white;
+}
+
+#mensaje_request{
+  color: red;
+}
+
+#enlace_administracion{
+  color:red; 
+  font-size: 2em;
+}
+
+#encabezado_tarjeta_administracion{
+  background: linear-gradient(90deg, #1c3643 0, #273b47 25%, #1e5372);
+  color: white;
+}
+
+#accordionExample{
+  display: contents;
+}
+
+.ec-stars-wrapper {
+  /* Espacio entre los inline-block (los hijos, los `a`) 
+     http://ksesocss.blogspot.com/2012/03/display-inline-block-y-sus-empeno-en.html */
+  font-size: 0;
+  /* Podríamos quitarlo, 
+    pero de esta manera (siempre que no le demos padding), 
+    sólo aplicará la regla .ec-stars-wrapper:hover a cuando
+    también se esté haciendo hover a alguna estrella */
+  display: inline-block;
+}
+.ec-stars-wrapper a {
+  text-decoration: none;
+  display: inline-block;
+  /* Volver a dar tamaño al texto */
+  font-size: 32px;
+  font-size: 2rem;
+  
+  color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+  color: #22c7c0;
+}
+/*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+.ec-stars-wrapper > a:hover ~ a {
+  color: #888;
+}
+
+
+
+
+.numerador {
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 1em;
+  background-color: #00258e;
+  margin: 0 1em;
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+form{
+  margin-block-end: auto!important;
+}
+
+
+
