@@ -13,9 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::mixin(new \Laravel\Ui\AuthRouteMethods());
-Route::auth(['verify' => true]);
-
 Route::get('/', 'PagesController@home');
 
 Route::get('/aspirante',  'FuncionariasController@aspirante');
