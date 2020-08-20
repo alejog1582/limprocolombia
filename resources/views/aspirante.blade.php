@@ -8,7 +8,20 @@
     <br>
     <div class="row">
         <div class="col-md-6">
-            <p>Gracias por estar interesada en trabajar con nosotros. </p>
+            <div class="card">
+                <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597355560/Limpro%20Colombia/Slider%20Carrousel/trabaja_con_nosotros.jpg" class="card-img" alt="...">
+            </div>
+            <br>
+            <h2 class="text-center">¿Que beneficios tienes con nostros?</h2>
+            <br>
+            <p><i class="fas fa-check-circle" style="color: #22c7c0"></i> Estabilidad Laboral.
+            <br> 
+            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Seguridad social y todos los pagos de ley.
+            <br> 
+            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Plan de telefonia empresarial con datos y minutos.
+            <br> 
+            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Descansa domingos y festivos.
+            </p>
         </div>
         <div class="col-md-6">
             <h2 class="text-center titulo">Diligencia el Formulario</h2>

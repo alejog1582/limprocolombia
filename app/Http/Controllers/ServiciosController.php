@@ -9,16 +9,21 @@ use App\Http\Requests\ServicioRequest;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ServicioCliente;
 use App\Mail\ServicioAdministrador;
+use App\User;
 
 class ServiciosController extends Controller
 {
     public function servicionew(){
-        return view('servicionew');
+        $user = \Auth::user();
+        return view('servicionew', [
+			'user' => $user,
+		]);
     }
 
     public function servicionewsave(ServicioRequest $request) {
-
+        
         $plan = $request->plan;
+        $kit = $request->kit_productos;
         $valor_plan = null;
         $hora_inicio = null;
         $canje_usuario = $request->canje;
@@ -29,16 +34,26 @@ class ServiciosController extends Controller
         $signature = null;
         $tax = null;
         $taxReturnBase = null;
+        $valor_kit = null;
             
         if ($plan == '4') {
-            $valor_plan = 59000;
+            $valor_plan = 54000;
             $hora_inicio = $request->hora_inicio;
         }
         if ($plan == '8') {
             $valor_plan = 79000;
             $hora_inicio = '8 am';
         }
+        if ($kit == 'kit1') {
+            $valor_kit = 30000;
+        }
+        if ($kit == 'kit2') {
+            $valor_kit = 50000;
+        }
         if ($canje_usuario == null) {
+            if ($valor_kit <> null) {
+                $valor_plan = $valor_plan + $valor_kit;
+            }
             $servicio = Servicio::create([
                 'ciudad'=> $request->input('ciudad'),
                 'tipo_servicio'=> $request->input('tipo_servicio'),
@@ -81,7 +96,12 @@ class ServiciosController extends Controller
         
         
         if ($canje_validacion == true) {
-            $valor_plan = $valor_plan - $valor_canje;
+            if ($valor_kit <> null) {
+                $valor_plan = $valor_plan - $valor_canje + $valor_kit;
+            } else {
+                $valor_plan = $valor_plan - $valor_canje;
+            }
+            
             $servicio = Servicio::create([
                 'ciudad'=> $request->input('ciudad'),
                 'tipo_servicio'=> $request->input('tipo_servicio'),
@@ -111,6 +131,7 @@ class ServiciosController extends Controller
                 if ($canje_usuario == $canje->codigo_canje) {
                     if ($canje->estado == 'activo') {
                         $canje->servicio_canjeado = $servicio->id;
+                        $canje->estado = 'canjeado';
                         $canje->save();
                     }
                 }

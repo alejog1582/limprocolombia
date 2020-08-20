@@ -48,12 +48,30 @@
                 <li class="list-group-item card_secundaria">
                     <div class="row">
                         <div class="col-md-6">
-                            <b>Valor:</b> @php echo number_format($servicio->valor_plan); @endphp</div>
+                            <b>Valor del Servicio:</b> @php echo number_format($servicio->valor_plan); @endphp</div>
                         <div class="col-md-6">
                             <b>Estado:</b> Pte. Asignacion Funcionaria
                         </div>
                     </div>
                 </li>
+                @if ($servicio->kit_productos == 'kit1')
+                <li class="list-group-item card_secundaria">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <b>Kit de Aseo:</b> Kit 1 $ 30.000
+                        </div>
+                    </div>
+                </li>                    
+                @endif
+                @if ($servicio->kit_productos == 'kit2')
+                <li class="list-group-item card_secundaria">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <b>Kit de Aseo:</b> Kit 2 $ 50.000
+                        </div>
+                    </div>
+                </li>                    
+                @endif
                 <li class="list-group-item card_secundaria">
                     <div class="row">
                         <div class="col-md-6 text-center">

@@ -140,5 +140,24 @@ form{
   margin-block-end: auto!important;
 }
 
-
-
+.datepicker{
+  background-color: #dde6fc!important;
+}
+.datepicker-switch{
+  color: #00258e !important;
+}
+.dow{
+  color: #00258e !important;
+}
+.datepicker table tr td.old{
+  color:#999!important;
+}
+.datepicker table tr td.disabled{
+  color: #999;
+}
+.datepicker table tr td.new{
+  color: #999;
+}
+.day{
+  color: #00258e;
+}

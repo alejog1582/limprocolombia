@@ -104,3 +104,11 @@ Route::post('/tienda/eliminarproducto', 'TiendaController@eliminar');
 Route::get('/tienda/limpiarcarrito', 'TiendaController@limpiar');
 Route::get('/tienda/finalizarcompra', 'TiendaController@finalizarcompra');
 Route::post('/tienda/pedido', 'TiendaController@pedido');
+
+//Protocolos
+
+Route::get('/protocolos', 'PagesController@protocolos');
+
+//Planes
+
+Route::get('/nuestrosplanes', 'PagesController@nuestrosplanes');

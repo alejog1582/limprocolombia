@@ -9,6 +9,28 @@
     <br>
     <div class="row">
         <div class="col-md-6">
+            <div class="card">
+                <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597350356/Limpro%20Colombia/Slider%20Carrousel/cotizaciones.jpg" class="card-img" alt="...">
+            </div>
+            <br>
+            <h2 class="text-center">Razones para elegirnos como tu proveedor de limpieza</h2>
+            <br>
+            <p><i class="fas fa-check-circle" style="color: #22c7c0"></i> Contrato sin clausulas de permanencia. Trabajamos por tu satisfacción sin ataduras ni compromisos.
+            <br> 
+            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Nos especialiamos en servicios por dias y contamos con planes a la medida de tus necesidades.
+            <br> 
+            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Unicamente pagas los servicios recibidos a satisfaccion.
+            <br> 
+            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Te asignamos una funcionaria fija quien atendera los servicios que requieres los dias contratados.
+            <br> 
+            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Personal 100% confiable quien para llegar a ti a aprobado un exigente proceso de seleccion, el cual te lo compartiremos en el momento de la asignacion de la funcionaria.
+            <br> 
+            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Asumimos la seguridad social de nuestras funcionarias para tu tranquilidad.   
+        </p>
+        </div>
+        <div class="col-md-6">
+            <h2 class="text-center">Diligencia el Formulario</h2>
+            <br>
             <form action="/cotizacionew/save" method="POST">
                 {{ csrf_field() }}
                 <div class="form-row">
@@ -179,6 +201,7 @@
                 <br><br>
               </form>
         </div>
+                
     </div>
     
     

@@ -17,4 +17,11 @@ class PagesController extends Controller
     public function cotizacion(){
         return view('cotizacion');
     }
+
+    public function protocolos(){
+        return view('protocolos');
+    }
+    public function nuestrosplanes(){
+        return view('nuestrosplanes');
+    }
 }
