@@ -75,7 +75,7 @@
                 <li class="list-group-item card_secundaria">
                     <div class="row">
                         <div class="col-md-6 text-center">
-                            <form method="post" target="_blank" action="https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/">
+                            <form method="post" target="_blank" action="https://checkout.payulatam.com/ppp-web-gateway-payu/">
                                 <input name="merchantId"    type="hidden"  value="508029"   >
                                 <input name="accountId"     type="hidden"  value="512321" >
                                 <input name="description"   type="hidden"  value="Servcio de Limpieza plan {{$servicio->plan}} Horas"  >
@@ -90,7 +90,6 @@
                                 <input name="buyerEmail"    type="hidden"  value="{{$servicio->email}}" >
                                 <input name="telephone"    type="hidden"  value="{{$servicio->celular_contacto}}" >
                                 <input name="responseUrl"    type="hidden"  value="http://www.test.com/response" >
-                                <input name="confirmationUrl"    type="hidden"  value="http://www.test.com/confirmation" >
                                 <input name="Submit" type="submit" class="btn" id="boton_principal" value="Pagar" onClick="enviaMD5(calculaMD5())" >
                             </form>   
                         </div>
