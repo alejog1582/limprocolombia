@@ -107,6 +107,3 @@
 
 @endsection
 
-@section('title')
-    Panel de Control Limpro Colombia
-@endsection

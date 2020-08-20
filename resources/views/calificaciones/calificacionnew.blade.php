@@ -349,5 +349,5 @@
 @endsection
 
 @section('title')
-    Cotizacion Servicio de Limpieza
+    Calificacion de Servicio de Limpieza
 @endsection

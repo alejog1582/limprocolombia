@@ -22,3 +22,7 @@
     </div>            
 </div>
 @endsection
+
+@section('title')
+    Solicitud de Entrevista Enviada con Exito
+@endsection

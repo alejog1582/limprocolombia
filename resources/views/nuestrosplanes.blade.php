@@ -81,5 +81,5 @@
 @endsection
 
 @section('title')
-    Cotizacion Servicio de Limpieza
+    Nuestros Planes de Limpieza 
 @endsection

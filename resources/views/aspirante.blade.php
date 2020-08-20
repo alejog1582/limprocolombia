@@ -206,5 +206,5 @@
 @endsection
 
 @section('title')
-    Aspitante Limpro Colombia
+    Aspitante Limpro Colombia Limpieza Profesional
 @endsection

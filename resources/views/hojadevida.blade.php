@@ -110,5 +110,5 @@
 @endsection
 
 @section('title')
-    Cotizacion Servicio de Limpieza
+    Hoja de Vida Funcionaria de Limpieza
 @endsection

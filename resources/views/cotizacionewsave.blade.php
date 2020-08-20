@@ -17,5 +17,5 @@
 @endsection
 
 @section('title')
-    Cotizacion Servicio de Limpieza
+    Cotizacion de Servicio de Limpieza Enviada
 @endsection

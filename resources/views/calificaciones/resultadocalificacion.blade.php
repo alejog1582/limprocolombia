@@ -30,3 +30,7 @@
 </div>
 @endsection
 
+@section('title')
+    Calificacion Realizada
+@endsection
+

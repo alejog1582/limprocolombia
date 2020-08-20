@@ -28,5 +28,5 @@
 @endsection
 
 @section('title')
-    Cotizacion Servicio de Limpieza
+    Error en el Codigo de Canje
 @endsection

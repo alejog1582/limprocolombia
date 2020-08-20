@@ -118,6 +118,3 @@
 
 @endsection
 
-@section('title')
-    Cotizacion Servicio de Limpieza
-@endsection

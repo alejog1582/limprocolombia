@@ -18,5 +18,5 @@
 @endsection
 
 @section('title')
-    Cotizacion Servicio de Limpieza
+    Protocolos de Bioseguridad Limpro Colombia Limpieza Profesional
 @endsection

@@ -308,3 +308,7 @@
 </div>
 
 @endsection
+
+@section('title')
+    Mi Cuenta Limpro Colombia Limpieza Profesional
+@endsection

@@ -7,7 +7,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>@yield('title', 'Limpro Colombia Servicio de Limpieza Profesional')</title>
 
         <!-- CSS only -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw==" crossorigin="anonymous" />
@@ -69,11 +69,11 @@
                             <!-- Authentication Links -->
                             @guest
                                 <li class="nav-item">
-                                    <a class="btn" id="login" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    <a class="btn" id="login" href="{{ route('login') }}">{{ __('Ingresar') }}</a>
                                 </li>
                                 @if (Route::has('register'))
                                     <li class="nav-item">
-                                        <a class="btn" id="boton_principal2" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                        <a class="btn" id="boton_principal2" href="{{ route('register') }}">{{ __('Registrate') }}</a>
                                     </li>
                                 @endif
                             @else
