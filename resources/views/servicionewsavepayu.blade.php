@@ -76,8 +76,8 @@
                     <div class="row">
                         <div class="col-md-6 text-center">
                             <form method="post" target="_blank" action="https://checkout.payulatam.com/ppp-web-gateway-payu/">
-                                <input name="merchantId"    type="hidden"  value="508029"   >
-                                <input name="accountId"     type="hidden"  value="512321" >
+                                <input name="merchantId"    type="hidden"  value="765646"   >
+                                <input name="accountId"     type="hidden"  value="772247" >
                                 <input name="description"   type="hidden"  value="Servcio de Limpieza plan {{$servicio->plan}} Horas"  >
                                 <input name="referenceCode" type="hidden"  value="ServicioId{{$servicio->id}}" >
                                 <input name="amount"        type="hidden"  value="{{$servicio->valor_plan}}"   >

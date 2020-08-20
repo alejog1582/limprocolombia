@@ -148,7 +148,7 @@ class ServiciosController extends Controller
         
         if ($servicio->metodo_pago == 'payu') {
 
-            $signature = md5('pelM5RXl2Q988ukhrdc15P0jKP~772247~ServicioId'.$servicio->id.'~'.$valor_plan.'~COP');
+            $signature = md5('pelM5RXl2Q988ukhrdc15P0jKP~765646~ServicioId'.$servicio->id.'~'.$valor_plan.'~COP');
             $tax = round($valor_plan * 0.0169794459338695);
             $taxReturnBase = round($valor_plan * 0.0893655049151028);
             
