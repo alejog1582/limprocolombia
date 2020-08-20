@@ -86,10 +86,8 @@
                                 <input name="currency"      type="hidden"  value="COP" >
                                 <input name="signature"     type="hidden"  value="{{$signature}}">
                                 <input name="buyerFullName" type="hidden" value="{{$servicio->nombre_cliente}}"> 
-                                <input name="test"          type="hidden"  value="1" >
                                 <input name="buyerEmail"    type="hidden"  value="{{$servicio->email}}" >
                                 <input name="telephone"    type="hidden"  value="{{$servicio->celular_contacto}}" >
-                                <input name="responseUrl"    type="hidden"  value="http://www.test.com/response" >
                                 <input name="Submit" type="submit" class="btn" id="boton_principal" value="Pagar" onClick="enviaMD5(calculaMD5())" >
                             </form>   
                         </div>
