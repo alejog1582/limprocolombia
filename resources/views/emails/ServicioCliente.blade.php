@@ -7,9 +7,20 @@
     </Div>
     <div class="row">
         <div class="col-sm-12">
-            <p>Hola <b> {{$servicio->nombre_cliente}}</b>, hemos recibido la solicitud del servicio de <b> {{ $servicio->tipo_servicio }} </b> para el dia <b> {{$servicio->fecha_servicio}}</b>. En las proximas horas recibiras la informacion de la funcionaria asignada al servicio.
+            <p>Hola <b> {{$servicio->nombre_cliente}}</b>, hemos recibido la solicitud del servicio de <b> {{ $servicio->tipo_servicio }} </b> para el dia <b> {{$servicio->fecha_servicio}}</b>. En las proximas horas nos pondremos en contacto para brindarte la informacion detallada del servicio y de la profesional asignada.
             <br><br>
             Gracias escoger nuestro servicio, tu limpieza esta en las mejores manos.
+        </b> <br><br>
+        Cordialmente,
+        <br><br>
+
+       <b>LIMPRO COLOMBIA SAS</b>
+        <br>
+        Tel: 655 62 19 
+        <br>
+        Cel: 350 459 10 97
+        <br>
+        <a href="www.limpro.co">www.limpro.co</a> 
             </p>
         </div>
     </div>

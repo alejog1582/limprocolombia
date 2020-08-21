@@ -64,6 +64,7 @@ class AdministracionController extends Controller
 		$funcionaria->numero_cuenta_ahorro = $request->numero_cuenta_ahorro;
 		$funcionaria->talla_uniforme = $request->talla_uniforme;
 		$funcionaria->talla_zapato = $request->talla_zapato;
+		$funcionaria->experiencia_tiempo = $request->experiencia_tiempo;
 		$funcionaria->cocina = $request->cocina;
 		$funcionaria->cafeteria = $request->cafeteria;
 		$funcionaria->plancha = $request->plancha;
@@ -138,6 +139,7 @@ class AdministracionController extends Controller
 		$funcionaria->numero_cuenta_ahorro = $request->numero_cuenta_ahorro;
 		$funcionaria->talla_uniforme = $request->talla_uniforme;
 		$funcionaria->talla_zapato = $request->talla_zapato;
+		$funcionaria->experiencia_tiempo = $request->experiencia_tiempo;
 		$funcionaria->cocina = $request->cocina;
 		$funcionaria->cafeteria = $request->cafeteria;
 		$funcionaria->plancha = $request->plancha;
@@ -192,6 +194,14 @@ class AdministracionController extends Controller
 		
 		return view('administracion.entrevistasave', [
 			'funcionaria' => $funcionaria,			
+		]);
+	}
+
+	public function entrevistasdescartadas() {
+		$funcionarias = Funcionaria::where('estado', 'descartada')->get();
+				
+		return view('administracion.entrevistasdescartadas', [
+			'funcionarias' => $funcionarias,			
 		]);
 	}
 

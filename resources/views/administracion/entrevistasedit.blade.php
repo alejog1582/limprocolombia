@@ -14,6 +14,12 @@
     <br>
     <a class="btn" id="boton_principal" href="/administracion">Regresar</a>
     <br><br>
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <img width="20%" src="{{ $funcionaria->url_foto }}" alt="">
+        </div>
+    </div>
+    <br><br>
     <form action="/administracion/entrevistasedit/save" method="POST">
         {{ csrf_field() }}
         <input type="hidden" name="id_funcionaria" value="{{ $funcionaria->id }}">
@@ -406,7 +412,7 @@
             </div>
         </div>
         <div class="form-row">
-            <div class="form-group col-md-3">
+            <div class="form-group col-md-2">
                 <label for="talla_uniforme">Talla Uniforme</label>
                 <input value="{{ $funcionaria->talla_uniforme }}" type="text" class="form-control" id="talla_uniforme" name="talla_uniforme" @if ($errors->has('talla_uniforme')) is-invalid @endif>
                 @if ($errors->has('talla_uniforme'))
@@ -417,11 +423,22 @@
                     @endforeach
                 @endif
             </div>
-            <div class="form-group col-md-3">
+            <div class="form-group col-md-2">
                 <label for="talla_zapato">Talla Zapatos</label>
                 <input value="{{ $funcionaria->talla_zapato }}" type="text" class="form-control" id="talla_zapato" name="talla_zapato" @if ($errors->has('talla_zapato')) is-invalid @endif>
                 @if ($errors->has('talla_zapato'))
                     @foreach ($errors->get('talla_zapato') as $error)
+                        <h6 id="mensaje_request">
+                            <blockquote>{{ $error }}</blockquote>
+                        </h6>
+                    @endforeach
+                @endif
+            </div>
+            <div class="form-group col-md-2">
+                <label for="experiencia_tiempo">Tiempo de Experiencia</label>
+                <input value="{{ $funcionaria->experiencia_tiempo }}" type="text" class="form-control" id="experiencia_tiempo" name="experiencia_tiempo" @if ($errors->has('experiencia_tiempo')) is-invalid @endif>
+                @if ($errors->has('experiencia_tiempo'))
+                    @foreach ($errors->get('experiencia_tiempo') as $error)
                         <h6 id="mensaje_request">
                             <blockquote>{{ $error }}</blockquote>
                         </h6>

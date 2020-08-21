@@ -52,6 +52,7 @@ class CreateFuncionariasTable extends Migration
             $table->string('celular_acudiente')->nullable();
             $table->string('trabajo_anterior')->nullable();
             $table->string('experiencia_laboral')->nullable();
+            $table->string('experiencia_tiempo')->nullable();
             $table->string('fortalezas')->nullable();
             $table->string('debilidades')->nullable();
             $table->string('hijos')->nullable();
@@ -69,6 +70,7 @@ class CreateFuncionariasTable extends Migration
             $table->string('referencias_laborales')->nullable();
             $table->string('fecha_vinculacion')->nullable();
             $table->string('fecha_dotacion')->nullable();
+            $table->string('capacitaciones')->nullable();
             $table->string('fecha_desvinculacion')->nullable();
             $table->string('motivo_desvinculacion')->nullable();
 			$table->string('estado');

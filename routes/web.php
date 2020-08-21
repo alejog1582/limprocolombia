@@ -39,6 +39,7 @@ Route::get('/administracion/aspirantes', 'AdministracionController@aspirantes');
 Route::get('/administracion/entrevista/{id}', 'AdministracionController@entrevistanew');
 Route::post('/administracion/entrevista/save',  'AdministracionController@entrevistasave');
 Route::get('/administracion/entrevistas', 'AdministracionController@entrevistas');
+Route::get('/administracion/entrevistasdescartadas', 'AdministracionController@entrevistasdescartadas');
 Route::get('/administracion/entrevistas/{id}', 'AdministracionController@entrevistasedit');
 Route::post('/administracion/entrevistasedit/save',  'AdministracionController@entrevistaseditsave');
 Route::get('/administracion/entrevistas/descartar/{id}', 'AdministracionController@entrevistasdescartar');

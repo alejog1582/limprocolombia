@@ -187,7 +187,7 @@
                 <div class="card-body">
                     <h5 class="card-title titulo">Sistema de Calificacion</h5>
                     <p class="card-text">Trabajamos día a día para ofrecerle el mejor servicio y su
-                        opinión sobre acerca de nuestros servicios es importante para nosotros, por lo que podrán
+                        opinión sobre nuestros servicios es importante para nosotros, por lo que podrán
                         calificar tanto a nuestra funcionaria como el servicio prestado.
                     </p>
                 </div>

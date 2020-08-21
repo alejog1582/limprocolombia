@@ -12,7 +12,20 @@
                 <li class="list-group-item"><b>Plan:</b> {{$servicio->plan}}</li>
                 <li class="list-group-item"><b>Hora de Inicio:</b> {{$servicio->hora_inicio}}</li>
                 <li class="list-group-item"><b>Direccion:</b> {{$servicio->direccion_servicio}} {{$servicio->detalle_direccion}}</li>
-            </ul>            
+            </ul>
+            <p>
+            </b> <br><br>
+                Cordialmente,
+                <br><br>
+        
+               <b>LIMPRO COLOMBIA SAS</b>
+                <br>
+                Tel: 655 62 19 
+                <br>
+                Cel: 350 459 10 97
+                <br>
+                <a href="www.limpro.co">www.limpro.co</a> 
+            </p>          
         </div>
     </div>    
 </div>

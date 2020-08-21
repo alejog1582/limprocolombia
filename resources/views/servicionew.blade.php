@@ -69,21 +69,22 @@
     <br>
     <div class="row">
         <div class="col-md-6">
+            <br><br><br><br>
             <div class="card">
                 <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597351714/Limpro%20Colombia/Slider%20Carrousel/nuevo_servicio.jpg" class="card-img" alt="...">
             </div>
             <br>
-            <h2 class="text-center">Siempre te ofrecemos mas...</h2>
+            <!-- <h2 class="text-center">Siempre te ofrecemos mas...</h2>
             <br>
-            <p><i class="fas fa-check-circle" style="color: #22c7c0"></i> Un servicio de limpieza profesional con la garantia que quedes satisfecho, si no es asi cuentanos y te devolemos el dinero.
+            <p><i class="fas fa-check-circle" style="color: #22c7c0"></i> Un servicio de limpieza profesional con la garantia que quedes satisfecho.
             <br> 
-            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Por cada 10 servicios solicitados, te damos un servicio gratis.
+            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Por cada 10 servicios con tarifa exporadica solicitados, te damos un servicio gratis.
             <br> 
             <i class="fas fa-check-circle" style="color: #22c7c0"></i> Recibe descuentos en tus servicios con nuestro plan de referidos.
             <br> 
-            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Personal 100% confiable quien para llegar a ti a aprobado un exigente proceso de seleccion, el cual te lo compartiremos en el momento de la asignacion de la funcionaria.
-        </p>
-        <br>
+            <i class="fas fa-check-circle" style="color: #22c7c0"></i> Personal 100% confiable, reservado y profesional en cada uno de nuestros servicios.
+        </p>--> 
+        <br><br><br>
         <div class="row">
             <h2 class="text-center">Incluye nuestro kit de limpieza a tu servicio</h2>
             <div class="col-md-6" style="margin-bottom: 1rem">

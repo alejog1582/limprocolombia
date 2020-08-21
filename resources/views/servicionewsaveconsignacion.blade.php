@@ -10,6 +10,12 @@
 
 <div class="row">
     <div class="col-md-6">
+        <div class="card">
+            <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1598020190/Limpro%20Colombia/Slider%20Carrousel/servicio_realizado.jpg" class="card-img" alt="...">
+        </div>
+        <br>
+    </div>
+    <div class="col-md-6">
         <div class="card card_secundaria">
             <div class="card-header text-center card_principal">
                 <b>Cliente:</b> {{$servicio->nombre_cliente}} 
@@ -55,7 +61,7 @@
                 <li class="list-group-item card_secundaria">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            El pago del servicio puede ser pagado en el Banco Davivienda en la cuenta de ahorros numero 450700109959. una vez realizado el pago por favor enviar soporte al whatsapp 3504591097
+                            El pago del servicio puede ser realizado en el Banco Davivienda en la cuenta de ahorros numero 450700109959. una vez realizado el pago por favor enviar soporte al whatsapp 3504591097
                         </div>
                     </div>
                 </li>

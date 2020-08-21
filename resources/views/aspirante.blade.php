@@ -8,6 +8,7 @@
     <br>
     <div class="row">
         <div class="col-md-6">
+            <br><br><br><br>
             <div class="card">
                 <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597355560/Limpro%20Colombia/Slider%20Carrousel/trabaja_con_nosotros.jpg" class="card-img" alt="...">
             </div>

@@ -10,20 +10,23 @@
         <h2>Nomina</h2>
         <br>
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <a href="/administracion/aspirantes" type="button" class="btn btn-lg btn-block" id="boton_principal">Aspirantes</a>
                 <br>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <a href="/administracion/entrevistas" type="button" class="btn btn-lg btn-block" id="boton_principal">Entrevistadas</a>
                 <br>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <a href="/administracion/funcionarias" type="button" class="btn btn-lg btn-block" id="boton_principal">Funcionarias</a>
                 <br>
             </div>
-            <div class="col-md-3">
-                <a href="/administracion/exfuncionarias" type="button" class="btn btn-lg btn-block" id="boton_principal">Ex Funcionarias</a>
+            <div class="col-md-2">
+                <a href="/administracion/exfuncionarias" type="button" class="btn btn-lg btn-block" id="boton_principal">Exfuncionarias</a>
+            </div>
+            <div class="col-md-2">
+                <a href="/administracion/entrevistasdescartadas" type="button" class="btn btn-lg btn-block" id="boton_principal">Descartadas</a>
             </div>
         </div> 
         <br>

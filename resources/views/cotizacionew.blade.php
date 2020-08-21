@@ -9,10 +9,11 @@
     <br>
     <div class="row">
         <div class="col-md-6">
+            <br><br><br>
             <div class="card">
                 <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597350356/Limpro%20Colombia/Slider%20Carrousel/cotizaciones.jpg" class="card-img" alt="...">
             </div>
-            <br>
+            <br><br><br>
             <h2 class="text-center">Razones para elegirnos como tu proveedor de limpieza</h2>
             <br>
             <p><i class="fas fa-check-circle" style="color: #22c7c0"></i> Contrato sin clausulas de permanencia. Trabajamos por tu satisfacción sin ataduras ni compromisos.

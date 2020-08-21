@@ -12,7 +12,7 @@
     <div class="accordion" id="accordionExample">
     @foreach ($funcionarias as $funcionaria)
     <div class="col-md-6">    
-        @if ($funcionaria->estado == 'entrevistada')
+        @if ($funcionaria->estado == 'descartada')
                 <div class="card">
                     <div class="card-header  card_principal" id="headingOne">
                         <h2>
@@ -29,7 +29,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6"><b>Cargo:</b> {{ $funcionaria->oficio }}</div>
-                                <div class="col-md-6"><b>Experiencia:</b> {{ $funcionaria->experiencia_oficio }}, {{ $funcionaria->experiencia_tiempo }} años</div>
+                                <div class="col-md-6"><b>Experiencia:</b> {{ $funcionaria->experiencia_oficio }}</div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6"><b>Ciudad</b> {{ $funcionaria->ciudad }}</div>
@@ -69,37 +69,7 @@
                             </div>
                             <hr>
                             <div class="row">
-                                @if ($funcionaria->examenes_medicos == null)
-                                    <div class="col-md-6"><b>Examenes Medicos:</b> <span style="color:red">Pendiente</span></div>
-                                @else
-                                    <div class="col-md-6"><b>Examenes Medicos:</b> {{ $funcionaria->examenes_medicos }}</div>
-                                @endif
-                                @if ($funcionaria->visita_domiciliaria == null)
-                                    <div class="col-md-6"><b>Visita Domiciliaria:</b> <span style="color:red">Pendiente</span></div>
-                                @else
-                                    <div class="col-md-6"><b>Visita Domiciliaria:</b> {{ $funcionaria->visita_domiciliaria }}</div>
-                                @endif                                
-                            </div>
-                            <div class="row">
-                                @if ($funcionaria->antecedentes == null)
-                                    <div class="col-md-6"><b>Antecedentes:</b> <span style="color:red">Pendiente</span></div>
-                                @else
-                                    <div class="col-md-6"><b>Antecedentes:</b> {{ $funcionaria->antecedentes }}</div>
-                                @endif
-                                @if ($funcionaria->referencias_laborales == null)
-                                    <div class="col-md-6"><b>Ref. Laborales:</b> <span style="color:red">Pendiente</span></div>
-                                @else
-                                    <div class="col-md-6"><b>Ref. Laborales:</b> {{ $funcionaria->referencias_laborales }}</div>
-                                @endif                                
-                            </div>
-                            <hr>
-                            <div class="row">
-                                <div class="col-md-6 text-center">
-                                    <a href="/administracion/entrevistas/{{$funcionaria->id}}" type="button" class="btn" id="boton_principal">Gestionar</a>
-                                </div>
-                                <div class="col-md-6 text-center">
-                                    <a href="/administracion/entrevistas/descartar/{{$funcionaria->id}}" type="button" class="btn boton_principal" id="boton_principal">Descartar</a>
-                                </div>
+                                <div class="col-md-12"><b>Concepto Entrevista:</b> {{ $funcionaria->concepto_entrevista }}</div>
                             </div>
                         </div>
                     </div>
@@ -116,4 +86,3 @@
 </div>
 
 @endsection
-

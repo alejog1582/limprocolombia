@@ -6,6 +6,14 @@
 <h1 class="text-center">Calificaciones Funcionaria <b> {{ $funcionaria->nombre_funcionaria_abreviado }}</b></h1>
 <a class="btn" id="boton_principal" href="/micuenta">Regresar</a>
 <br><br>
+<div class="contenedor">
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <img width="20%" src="{{ $funcionaria->url_foto }}" alt="">
+        </div>
+    </div>
+    <br>        
+</div>
 <div class="row">
     @foreach ($calificaciones as $calificacion)
     @if ($calificacion->id_empleado == $funcionaria->id)
