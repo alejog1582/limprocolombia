@@ -113,3 +113,7 @@ Route::get('/protocolos', 'PagesController@protocolos');
 //Planes
 
 Route::get('/nuestrosplanes', 'PagesController@nuestrosplanes');
+
+//politicas de privacidad
+
+Route::get('/politicasyprivacidad', 'PagesController@politicasyprivacidad');

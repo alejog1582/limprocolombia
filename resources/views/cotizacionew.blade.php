@@ -187,7 +187,7 @@
                     <div class="form-group col-sm-12">
                         <label>
                             <input type="checkbox" class="filled-in @if ($errors->has('privacidad')) is-invalid @endif" name="privacidad" />
-                            <span><a href="/politica/privacidad" target="_blank">Acepto los terminos y condiciones</a></span>
+                            <span><a href="/politicasyprivacidad" target="_blank">Acepto los terminos y condiciones</a></span>
                             @if ($errors->has('privacidad'))
                                 @foreach ($errors->get('privacidad') as $error)
                                     <h6 id="mensaje_request">

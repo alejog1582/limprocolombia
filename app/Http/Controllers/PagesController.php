@@ -24,4 +24,7 @@ class PagesController extends Controller
     public function nuestrosplanes(){
         return view('nuestrosplanes');
     }
+    public function politicasyprivacidad(){
+        return view('politicasyprivacidad');
+    }
 }
