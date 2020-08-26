@@ -5,8 +5,6 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
 <url>
   <loc>http://www.limpro.co/</loc>
   <lastmod>2020-08-26T16:10:33+00:00</lastmod>
@@ -72,6 +70,4 @@
   <lastmod>2020-08-26T16:10:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
-
 </urlset>
