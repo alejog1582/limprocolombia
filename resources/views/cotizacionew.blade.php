@@ -11,7 +11,7 @@
         <div class="col-md-6">
             <br><br><br>
             <div class="card">
-                <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597350356/Limpro%20Colombia/Slider%20Carrousel/cotizaciones.jpg" class="card-img" alt="...">
+                <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597350356/Limpro%20Colombia/Slider%20Carrousel/cotizaciones.jpg" class="card-img" alt="Cotizacion Limpro Colombia">
             </div>
             <br><br><br>
             <h2 class="text-center">Razones para elegirnos como tu proveedor de limpieza</h2>

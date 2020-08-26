@@ -11,7 +11,7 @@
             <br><br>
             Califica el servicio prestado por nuestra funcionaria <b> {{ $servicio->funcionaria_asignada->nombre_funcionaria_abreviado }} </b> el dia <b> {{$servicio->fecha_servicio}}</b>
             <br><br>
-            <a href="http://127.0.0.1:8000/calificacionservicio/{{$servicio->id}}" class="btn" id="boton_principal">Califica tu servicio</a>
+            <a href="http://www.limpro.co/calificacionservicio/{{$servicio->id}}" class="btn" id="boton_principal">Califica tu servicio</a>
         </b> <br><br>
         Cordialmente,
         <br><br>

@@ -117,3 +117,7 @@ Route::get('/nuestrosplanes', 'PagesController@nuestrosplanes');
 //politicas de privacidad
 
 Route::get('/politicasyprivacidad', 'PagesController@politicasyprivacidad');
+
+//sitemap
+Route::get('/sitemap.xml', 'PagesController@sitemap');
+Route::get('/sitemap_images.xml', 'PagesController@sitemap_images');

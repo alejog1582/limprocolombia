@@ -41,7 +41,7 @@
     <div class="row">
         <div class="col-sm" style="margin-bottom: 1rem">
             <div class="card h-100 text-center card_principal">
-                <img src="{{ asset('images/servicio.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/servicio.png') }}" class="card-img-top" id="img_principal" alt="Solicitud de un nuevo servicio de limpieza">
                 <div class="card-body">
                     <h5 class="card-title titulo">Quiero un Servicio de Limpieza</h5>
                     <p class="card-text">Para LIMPRO COLOMBIA SAS es muy importante
@@ -54,7 +54,7 @@
         <br><br><br>
         <div class="col-sm" style="margin-bottom: 1rem">
             <div class="card h-100 text-center card_secundaria">
-                <img src="{{ asset('images/cotizacion.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/cotizacion.png') }}" class="card-img-top" id="img_principal" alt="Solicitu de una cotizacion de limpieza">
                 <div class="card-body">
                     <h5 class="card-title titulo">Quiero una Cotizacion</h5>
                     <p class="card-text">Conoce a fondo nuestros servicios de limpieza solicitando una cotización
@@ -95,7 +95,7 @@
     <div class="row">
         <div class="col-sm" style="margin-bottom: 1rem">
             <div class="card h-100 text-center card_secundaria">
-                <img src="{{ asset('images/numero_4n.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/numero_4n.png') }}" class="card-img-top" id="img_principal" alt="Plan 4 horas Limpro Colombia">
                 <div class="card-body">
                     <h5 class="card-title titulo">Plan de 4 Horas</h5>
                     <p class="card-text">Nos Comprometemos con un servicio a la medida de sus
@@ -107,7 +107,7 @@
         </div>
         <div class="col-sm" style="margin-bottom: 1rem">
             <div class="card h-100 text-center card_secundaria">
-                <img src="{{ asset('images/numero_8n.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/numero_8n.png') }}" class="card-img-top" id="img_principal" alt="Plan 8 horas Limpro Colombia">
                 <div class="card-body">
                     <h5 class="card-title titulo">Valor 8 Horas</h5>
                     <p class="card-text">Con base en el análisis sobre las necesidades de nuestros
@@ -130,7 +130,7 @@
     <div class="row">
         <div class="col-sm" style="margin-bottom: 1rem">
             <div class="card h-100 text-center card_principal">
-                <img src="{{ asset('images/reloj.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/reloj.png') }}" class="card-img-top" id="img_principal" alt="Servicio de limpieza por dias o por horas">
                 <div class="card-body">
                     <h5 class="card-title titulo">Servicio De Limpieza Por Dias o Por Horas</h5>
                     <p class="card-text">Contamos con planes de acuerdo a tu
@@ -143,7 +143,7 @@
         </div>
         <div class="col-sm" style="margin-bottom: 1rem">
             <div class="card h-100 text-center card_secundaria">
-                <img src="{{ asset('images/contrato.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/contrato.png') }}" class="card-img-top" id="img_principal" alt="Contratos sin clausulas de permanecia Limpro Colombia">
                 <div class="card-body">
                     <h5 class="card-title titulo">Contratos sin clausulas de permanecia</h5>
                     <p class="card-text">Nuestro interés es generar relaciones a
@@ -156,7 +156,7 @@
         </div>
         <div class="col-sm" style="margin-bottom: 1rem">
             <div class="card h-100 text-center card_secundaria">
-                <img src="{{ asset('images/entrevista.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/entrevista.png') }}" class="card-img-top" id="img_principal" alt="Seleccion de Personal Limpro Colombia">
                 <div class="card-body">
                     <h5 class="card-title titulo">Seleccion de Personal</h5>
                     <p class="card-text">Contamos con un riguroso proceso de selección de nuestro
@@ -170,7 +170,7 @@
     <div class="row">
         <div class="col-sm" style="margin-bottom: 1rem">
             <div class="card h-100 text-center card_secundaria">
-                <img src="{{ asset('images/garantia.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/garantia.png') }}" class="card-img-top" id="img_principal" alt="Garantia de Servicio Limpro Colombia">
                 <div class="card-body">
                     <h5 class="card-title titulo">Garantia de Serivcio</h5>
                     <p class="card-text">Cumpliendo con nuestro objetivo, escucharemos atentamente
@@ -183,7 +183,7 @@
         </div>
         <div class="col-sm" style="margin-bottom: 1rem">
             <div class="card h-100 text-center card_secundaria">
-                <img src="{{ asset('images/calificacion.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/calificacion.png') }}" class="card-img-top" id="img_principal" alt="Sistma de calificacion Limpro Colombia">
                 <div class="card-body">
                     <h5 class="card-title titulo">Sistema de Calificacion</h5>
                     <p class="card-text">Trabajamos día a día para ofrecerle el mejor servicio y su
@@ -196,7 +196,7 @@
         </div>
         <div class="col-sm" style="margin-bottom: 1rem">
             <div class="card h-100 text-center card_principal">
-                <img src="{{ asset('images/redes.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/redes.png') }}" class="card-img-top" id="img_principal" alt="Carga Prestacional Limpro Colombia">
                 <div class="card-body">
                     <h5 class="card-title titulo">Carga Prestacional</h5>
                     <p class="card-text">Evita cálculos y tramites dispendiosos en la afiliación y aportes de
@@ -209,11 +209,11 @@
     <br>
     <div class="row">
         <div class="col-sm" id="columnas_botones">
-            <a href="/servicionew" class="btn" id="boton_principal">Queiero un Servicio</a>
+            <a href="/servicionew" class="btn" id="boton_principal">Quiero un Servicio</a>
         </div>
         <br><br>
         <div class="col-sm" id="columnas_botones">
-            <a href="/cotizacionew" class="btn" id="boton_principal">Queiero una Cotizacion</a>
+            <a href="/cotizacionew" class="btn" id="boton_principal">Quiero una Cotizacion</a>
         </div>
     </div>
 </div>
@@ -233,7 +233,7 @@
                 <br>
                 <li class="numerador">1</li>
                 <br>
-                <img src="{{ asset('images/monitor.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/monitor.png') }}" class="card-img-top" id="img_principal" alt="Solicitud de servicio Limpro Colombia">
                 <div class="card-body">
                     <h5 class="card-title titulo">Solicita tu Servicio</h5>
                     <p class="card-text">De acuerdo a su necesidad escoge el plan que prefieras y deja la
@@ -247,7 +247,7 @@
                 <br>
                 <li class="numerador">2</li>
                 <br>
-                <img src="{{ asset('images/conoce_funcionaria.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/conoce_funcionaria.png') }}" class="card-img-top" id="img_principal" alt="Conoce la funcionaria asignada en Limpro Colombia">
                 <div class="card-body">
                     <h5 class="card-title titulo">Conoce a la funcionaria asignada</h5>
                     <p class="card-text">Luego de tu solicitud de servicio, conocerás los
@@ -261,7 +261,7 @@
                 <br>
                 <li class="numerador">3</li>
                 <br>
-                <img src="{{ asset('images/limpiar.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/limpiar.png') }}" class="card-img-top" id="img_principal" alt="Disfruta del servicio de Limpro Colombia">
                 <div class="card-body">
                     <h5 class="card-title titulo">Dejate Atender</h5>
                     <p class="card-text">Nuestra funcionaria estara tocando tu puerta la fecha y hora indicada para brindarte la mejor experencia y de jando tus espacios relicientes con el mejor servicio de limpieza</p>
@@ -273,7 +273,7 @@
                 <br>
                 <li class="numerador">4</li>
                 <br>
-                <img src="{{ asset('images/exito.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/exito.png') }}" class="card-img-top" id="img_principal" alt="Calificacion de Funcionaria Limpro Colombia">
                 <div class="card-body">
                     <h5 class="card-title titulo">Califica la funcionaira</h5>
                     <p class="card-text">Luego de conocer nuestro servicio, agradecemos la calificación y
@@ -299,13 +299,13 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="{{ asset('images/clientes_1.png') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('images/clientes_1.png') }}" class="d-block w-100" alt="Clientes Limpro Colombia">
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ asset('images/clientes_2.png') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('images/clientes_2.png') }}" class="d-block w-100" alt="Clientes Limpro Colombia">
                     </div>
                     <div class="carousel-item">
-                        <img src="{{ asset('images/clientes_3.png') }}" class="d-block w-100" alt="...">
+                        <img src="{{ asset('images/clientes_3.png') }}" class="d-block w-100" alt="Clientes Limpro Colombia">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -323,7 +323,7 @@
             <h2 class="text-center titulo">Trabaja con nosotros</h2>
             <br>
             <div class="card text-center card_principal">
-                <img src="{{ asset('images/trabajo.png') }}" class="card-img-top" id="img_principal" alt="...">
+                <img src="{{ asset('images/trabajo.png') }}" class="card-img-top" id="img_principal" alt="Trabaja con nosotros Limpro Colombia">
                 <div class="card-body">
                     <p class="card-text">Unete a nuestra familia para ofrecer la mejor experiencia de limpieza a nuestros clientes.</p>
                     <a href="/aspirante" class="btn" id="boton_principal">Solicita Entrevista</a>

@@ -4,6 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta name="google-site-verification" content="P4At6vdOx5CUQoZGrLC6GV4mezGQ9nA2cL1LnC2LzZk" />
+        <meta name="google-site-verification" content="ICH6EWzAzcU_d1p-8daaK9qpk9i-c1ow4se6az1f5eY" />
+        <meta name="google-site-verification" content="ICH6EWzAzcU_d1p-8daaK9qpk9i-c1ow4se6az1f5eY" />
+
+        <meta name="description" content="Pide tu servicio ahora y para mayor confiabilidad selecciona la persona que te atenderá. Califica el servicio que te prestamos y obtén un servicio gratis por 10 realizados."/>
+
+
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -33,7 +40,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light" id="barra_menu">
                 <div class="container">
                     <a class="navbar-brand" href="#">
-                        <img id="logo_navbar" src="{{ asset('images/logo_500.png') }}" width="30" height="30" alt="">
+                        <img id="logo_navbar" src="{{ asset('images/logo_500.png') }}" width="30" height="30" alt="Logo Limpro Colombia Limpieza Profesional">
                     </a>
                     <button class="navbar-toggler" style="background-color:white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                         <span class="navbar-toggler-icon"></span>

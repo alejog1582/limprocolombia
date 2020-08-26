@@ -11,7 +11,7 @@
             <br><br>
             Conoce la hoja de vida virtual y las calificaones de servicio de nuestra funcionaria asignada. Recuerda que podras realizar tu calificacion una vez culmine el servicio.
             <br><br>
-            <a href="http://127.0.0.1:8000/hojadevida/{{ $servicio->funcionaria_asignada->id }}" class="btn" id="boton_principal">Ver Hoja de Vida</a>
+            <a href="http://www.limpro.co/hojadevida/{{ $servicio->funcionaria_asignada->id }}" class="btn" id="boton_principal">Ver Hoja de Vida</a>
         </b> <br><br>
         Cordialmente,
         <br><br>

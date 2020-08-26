@@ -10,7 +10,7 @@
         <div class="col-md-6">
             <br><br><br><br>
             <div class="card">
-                <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597355560/Limpro%20Colombia/Slider%20Carrousel/trabaja_con_nosotros.jpg" class="card-img" alt="...">
+                <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597355560/Limpro%20Colombia/Slider%20Carrousel/trabaja_con_nosotros.jpg" class="card-img" alt="Solictud de entrevista limpro colombia">
             </div>
             <br>
             <h2 class="text-center">¿Que beneficios tienes con nostros?</h2>

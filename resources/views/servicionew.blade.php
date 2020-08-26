@@ -71,7 +71,7 @@
         <div class="col-md-6">
             <br><br><br><br>
             <div class="card">
-                <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597351714/Limpro%20Colombia/Slider%20Carrousel/nuevo_servicio.jpg" class="card-img" alt="...">
+                <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597351714/Limpro%20Colombia/Slider%20Carrousel/nuevo_servicio.jpg" class="card-img" alt="Servicio de Limpieza">
             </div>
             <br>
             <!-- <h2 class="text-center">Siempre te ofrecemos mas...</h2>

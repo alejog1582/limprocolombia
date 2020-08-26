@@ -9,7 +9,7 @@
 <div class="row">
     <div class="col-md-6" style="margin-bottom: 1rem">
         <div class="card h-100">
-            <a href="/cotizacionew"><img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597940700/Limpro%20Colombia/Slider%20Carrousel/plan_4_horas.jpg" class="card-img-top" alt="..."></a>
+            <a href="/cotizacionew"><img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597940700/Limpro%20Colombia/Slider%20Carrousel/plan_4_horas.jpg" class="card-img-top" alt="Plan de 4 horas Limpro Colombia"></a>
             <div class="card-body">
                 <h2 class="card-title text-center">Plan de Servicio de Limpieza 4 Horas</h2>
                 <p class="card-text">En este plan nos enfocamos en actividades especificas y concretas donde las actividades a realizar se adecuen al tiempo contratado. <br><br> Si contratas este plan para el <b>hogar</b> realizamos las siguientes actividades:</p>
@@ -42,7 +42,7 @@
     </div>
     <div class="col-md-6" style="margin-bottom: 1rem">
         <div class="card  h-100">
-            <a href="/cotizacionew"><img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597940700/Limpro%20Colombia/Slider%20Carrousel/plan_8_horas.jpg" class="card-img-top" alt="..."></a>
+            <a href="/cotizacionew"><img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1597940700/Limpro%20Colombia/Slider%20Carrousel/plan_8_horas.jpg" class="card-img-top" alt="Plan 8 Horas Limpro Colombia"></a>
             <div class="card-body">
                 <h2 class="card-title text-center">Plan de Servicio de Limpieza 8 Horas</h2>
                 <p class="card-text">En este plan nos especialimos en brindarte un servicio detallado y profundo y ampliamos nuestro tiempo en cada uno de los espacios para dejar tus espacios impecables.<br><br> Si contratas este plan para el <b>hogar</b> realizamos las siguientes actividades:</p>

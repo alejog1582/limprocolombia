@@ -27,4 +27,10 @@ class PagesController extends Controller
     public function politicasyprivacidad(){
         return view('politicasyprivacidad');
     }
+    public function sitemap() {
+		return response()->view('sitemap')->header('Content-Type', 'text/xml');
+	}
+	public function sitemap_images() {
+		return response()->view('sitemap_images')->header('Content-Type', 'text/xml');
+	}
 }
