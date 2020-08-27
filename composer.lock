@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a3143282571e88643d2853219929365e",
+    "content-hash": "500ce668532d17985b19467789a6fe5f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1298,6 +1298,59 @@
                 }
             ],
             "time": "2020-03-17T18:58:12+00:00"
+        },
+        {
+            "name": "mguinea/laravel-robots",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mguinea/laravel-robots.git",
+                "reference": "fc75f3f3254c9853262dbd268710525e3e083981"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mguinea/laravel-robots/zipball/fc75f3f3254c9853262dbd268710525e3e083981",
+                "reference": "fc75f3f3254c9853262dbd268710525e3e083981",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^6.0|^7.0",
+                "php": "^7.3"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^4.0|^5.0",
+                "phpunit/phpunit": "^8.0|^9.0"
+            },
+            "type": "laravel-package",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Robots\\RobotsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Mguinea\\Robots\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Guinea",
+                    "email": "develop.marcguinea@gmail.com"
+                }
+            ],
+            "description": "Laravel package to manage robots in an easy way",
+            "homepage": "https://github.com/mguinea/laravel-robots",
+            "keywords": [
+                "laravel",
+                "robots"
+            ],
+            "time": "2020-06-20T21:31:37+00:00"
         },
         {
             "name": "monolog/monolog",

@@ -25,7 +25,8 @@ class ServicioRequest extends FormRequest
     {
         return [
             'ciudad' => 'required',
-            'fecha_servicio' => 'required|after:yesterday',
+            /*'fecha_servicio' => 'required|after:yesterday',*/
+            'fecha_servicio' => 'required',
             'lugar_servicio' => 'required',
             'plan' => 'required',
             'tipo_servicio' => 'required',
@@ -43,7 +44,7 @@ class ServicioRequest extends FormRequest
 		return [
             'ciudad.required' => 'EL campo Ciudad del Servicio es obligatorio',
             'fecha_servicio.required' => 'El campo Fecha de Servicio es obligatorio',
-            'fecha_servicio.after' => 'La fecha debe ser superior o igual a la fecha de hoy',
+            /*'fecha_servicio.after' => 'La fecha debe ser superior o igual a la fecha de hoy',*/
             'lugar_servicio.required' => 'EL campo Lugar de Servicio es obligatorio',
             'plan.required' => 'El campo Plan es obligatorio',
             'tipo_servicio.required' => 'El campo Tipo de Servicio es obligatorio',
