@@ -334,21 +334,63 @@
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="form-group col-md-4">
-                        <label for="metodo_pago"><b>Metodo de Pago</b></label>
-                        <select id="metodo_pago" class="form-control" name="metodo_pago" @if ($errors->has('metodo_pago')) is-invalid @endif>
-                            <option selected disabled>Seleccione una Opcion</option>
-                            <option value="consignacion">Consignacion o Transferencia </option>
-                            <option value="payu">PayU</option>                            
-                        </select>
-                        @if ($errors->has('metodo_pago'))
-                            @foreach ($errors->get('metodo_pago') as $error)
-                                <h6 id="mensaje_request">
-                                    <blockquote>{{ $error }}</blockquote>
-                                </h6>
-                            @endforeach
+                    @if (Auth::check())
+                        @if ($user->email == 'alejog1582@gmail.com')
+                            <div class="form-group col-md-4">
+                                <label for="metodo_pago"><b>Metodo de Pago</b></label>
+                                <select id="metodo_pago" class="form-control" name="metodo_pago" @if ($errors->has('metodo_pago')) is-invalid @endif>
+                                    <option selected disabled>Seleccione una Opcion</option>
+                                    <option value="plan">Plan </option>
+                                    <option value="consignacion">Consignacion o Transferencia </option>
+                                    <option value="payu">PayU</option>                            
+                                </select>
+                                @if ($errors->has('metodo_pago'))
+                                    @foreach ($errors->get('metodo_pago') as $error)
+                                        <h6 id="mensaje_request">
+                                            <blockquote>{{ $error }}</blockquote>
+                                        </h6>
+                                    @endforeach
+                                @endif
+                            </div>
+                        @else
+                        <div class="form-group col-md-4">
+                            <label for="metodo_pago"><b>Metodo de Pago</b></label>
+                            <select id="metodo_pago" class="form-control" name="metodo_pago" @if ($errors->has('metodo_pago')) is-invalid @endif>
+                                <option selected disabled>Seleccione una Opcion</option>
+                                <option value="consignacion">Consignacion o Transferencia </option>
+                                <option value="payu">PayU</option>                            
+                            </select>
+                            @if ($errors->has('metodo_pago'))
+                                @foreach ($errors->get('metodo_pago') as $error)
+                                    <h6 id="mensaje_request">
+                                        <blockquote>{{ $error }}</blockquote>
+                                    </h6>
+                                @endforeach
+                            @endif
+                        </div>
                         @endif
-                    </div> 
+                    @else
+                        <div class="form-group col-md-4">
+                            <label for="metodo_pago"><b>Metodo de Pago</b></label>
+                            <select id="metodo_pago" class="form-control" name="metodo_pago" @if ($errors->has('metodo_pago')) is-invalid @endif>
+                                <option selected disabled>Seleccione una Opcion</option>
+                                <option value="consignacion">Consignacion o Transferencia </option>
+                                <option value="payu">PayU</option>                            
+                            </select>
+                            @if ($errors->has('metodo_pago'))
+                                @foreach ($errors->get('metodo_pago') as $error)
+                                    <h6 id="mensaje_request">
+                                        <blockquote>{{ $error }}</blockquote>
+                                    </h6>
+                                @endforeach
+                            @endif
+                        </div> 
+                    @endif
+
+                    
+
+
+
                     <div class="form-group col-md-4">
                         <label for="kit_productos"><b>Adquirir Kit de Productos</b></label>
                         <select id="kit_productos" class="form-control" name="kit_productos" @if ($errors->has('kit_productos')) is-invalid @endif>

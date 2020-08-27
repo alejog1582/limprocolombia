@@ -1301,16 +1301,16 @@
         },
         {
             "name": "mguinea/laravel-robots",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mguinea/laravel-robots.git",
-                "reference": "fc75f3f3254c9853262dbd268710525e3e083981"
+                "reference": "6f6378886d297dee630e587a68b6ae16e607402b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mguinea/laravel-robots/zipball/fc75f3f3254c9853262dbd268710525e3e083981",
-                "reference": "fc75f3f3254c9853262dbd268710525e3e083981",
+                "url": "https://api.github.com/repos/mguinea/laravel-robots/zipball/6f6378886d297dee630e587a68b6ae16e607402b",
+                "reference": "6f6378886d297dee630e587a68b6ae16e607402b",
                 "shasum": ""
             },
             "require": {
@@ -1325,7 +1325,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Robots\\RobotsServiceProvider"
+                        "Mguinea\\Robots\\RobotsServiceProvider"
                     ]
                 }
             },
@@ -1350,7 +1350,7 @@
                 "laravel",
                 "robots"
             ],
-            "time": "2020-06-20T21:31:37+00:00"
+            "time": "2020-08-27T06:25:11+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -5155,6 +5155,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {

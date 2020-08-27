@@ -172,5 +172,14 @@ class ServiciosController extends Controller
                 'servicio' => $servicio,			
             ]);
         }
+
+        if ($servicio->metodo_pago == 'plan') {
+
+            Mail::to('notificaciones@limprocolombia.com')->send(new ServicioAdministrador($servicio));
+
+            return view('servicionewsaveplan', [
+                'servicio' => $servicio,			
+            ]);
+        }
 	}
 }

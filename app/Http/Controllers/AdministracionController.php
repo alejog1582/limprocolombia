@@ -333,9 +333,12 @@ class AdministracionController extends Controller
 		$servicio->estado = 'asignado';
 
 		$servicio->save();
+		
+		if ($servicio->metodo_pago <> 'plan') {
+			Mail::to($servicio->email)->send(new AsignacionCliente($servicio));
+			Mail::to($servicio->funcionaria_asignada->email)->send(new AsignacionFuncionaria($servicio));
+		}
 
-		Mail::to($servicio->email)->send(new AsignacionCliente($servicio));
-		Mail::to($servicio->funcionaria_asignada->email)->send(new AsignacionFuncionaria($servicio));
 		
 		return view('administracion.asignacionServicio', [
 			'servicio' => $servicio,			
@@ -356,9 +359,10 @@ class AdministracionController extends Controller
 		$servicio->estado = 'realizado';
 
 		$servicio->save();
-
-		Mail::to($servicio->email)->send(new CalificacionCliente($servicio));
-
+		
+		if ($servicio->metodo_pago <> 'plan') {
+			Mail::to($servicio->email)->send(new CalificacionCliente($servicio));
+		}
 		return view('administracion.cambioEstadoServicio', [
 			'servicio' => $servicio,			
 		]);

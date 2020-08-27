@@ -13,6 +13,12 @@
 <div class="row">
     <div class="col-md-6">
         <div class="card">
+            <img src="https://res.cloudinary.com/dikbf3xct/image/upload/v1598020190/Limpro%20Colombia/Slider%20Carrousel/servicio_realizado.jpg" class="card-img" alt="...">
+        </div>
+        <br>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
             <div class="card-header text-center card_principal">
                 <b>Cliente:</b> {{$servicio->nombre_cliente}}
             </div>
