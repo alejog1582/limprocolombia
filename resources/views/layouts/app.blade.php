@@ -127,7 +127,7 @@
                         <div class="col-sm">
                             <br>
                             <h3>Contacto</h3>
-                            <p>- Cra 7 # 156 - 68 Torre 3 Oficina 1103 <br> - Bogotá, D.C. - Colombia<br><a href="tel:7868181" id="contacto_footer">- 7 86 81 81<br></a><a href="tel:3504591097" id="contacto_footer">- 350 4591097<br><a href="mailto:servicios@limpro.co" id="contacto_footer">- servicios@limpro.co</a></p>
+                            <p>- Cra 7 # 156 - 68 Torre 3 Oficina 1103 <br> - Bogotá, D.C. - Colombia<br><a href="tel:0317868181" id="contacto_footer">- 7 86 81 81<br></a><a href="tel:3504591097" id="contacto_footer">- 350 4591097<br><a href="mailto:servicios@limpro.co" id="contacto_footer">- servicios@limpro.co</a></p>
                         </div>
                     </div>
                     <hr id="hr_footer">
