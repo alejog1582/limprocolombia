@@ -177,6 +177,10 @@ form{
   z-index:100;
 }
 
+.whatsapp:hover{
+  color:#FFF;
+}
+
 .whatsapp-icon {
   margin-top:13px;
 }
