@@ -36,7 +36,17 @@
         
     </head>
     <body>
+        <a href="https://wa.me/5717868181?text=Quiero%20mas%20informacion%20sobre%20el%20servicio%20de%20limpieza" class="whatsapp" target="_blank"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
         <div id="app">
+                <div class="row text-center" id="barra_menu">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 text-white"><i class="fas fa-phone-volume text-white" style="margin-right: 1em;"></i><i class="fab fa-whatsapp text-white" style="margin-right: 1em;"></i><a href="tel:+5717868181" style="color: white">7 86 81 81</a></div>
+                            <div class="col-md-4 text-white"><i class="fas fa-mobile-alt text-white" style="margin-right: 1em;"></i><a href="tel:+573504591097" style="color: white">350 450 10 97</a></div>
+                            <div class="col-md-4 text-white"><i class="far fa-envelope text-white" style="margin-right: 1em;"></i><a href="mailto:servicios@limpro.co" style="color: white">servicios@limpro.co</a></div>
+                        </div>
+                    </div>
+                </div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light" id="barra_menu">
                 <div class="container">
                     <a class="navbar-brand" href="#">
@@ -117,7 +127,7 @@
                         <div class="col-sm">
                             <br>
                             <h3>Contacto</h3>
-                            <p>- Bogotá, D.C. - Colombia<br><a href="tel:+573504591097" id="contacto_footer">- Ventas: (+57) 350 4591097<br><a href="tel:+5716556219" id="contacto_footer">- 6 55 62 19<br></a><a href="mailto:servicios@limpro.co" id="contacto_footer">- servicios@limpro.co</a></p>
+                            <p>- Cra 7 # 156 - 68 Torre 3 Oficina 1103 <br> - Bogotá, D.C. - Colombia<br><a href="tel:+5717868181" id="contacto_footer">- 7 86 81 81<br></a><a href="tel:+573504591097" id="contacto_footer">- 350 4591097<br><a href="mailto:servicios@limpro.co" id="contacto_footer">- servicios@limpro.co</a></p>
                         </div>
                     </div>
                     <hr id="hr_footer">
