@@ -218,8 +218,8 @@
                             @endforeach
                         @endif
                         <br>
-                        <h5 hidden id="valor_4horas" style="color:#00258e">El valor del servicio es de $54.000</h4>
-                        <h5 hidden id="valor_8horas" style="color:#00258e">El valor del servicio es de $79.000</h4>
+                        <h5 hidden id="valor_4horas" style="color:#00258e">El valor del servicio es de $45.000</h4>
+                        <h5 hidden id="valor_8horas" style="color:#00258e">El valor del servicio es de $70.000</h4>
                     </div>
                     <div class="form-group col-md-6">
                         <label for="hora_inicio"><b>Hora Inicio</b></label>
@@ -433,8 +433,8 @@
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-12">
-                        <h5 hidden id="valor_total_servicio4" style="color:#00258e">Valor del Servicio: $54.000</h5>
-                        <h5 hidden id="valor_total_servicio8" style="color:#00258e">Valor del Servicio: $79.000</h5>
+                        <h5 hidden id="valor_total_servicio4" style="color:#00258e">Valor del Servicio: $45.000</h5>
+                        <h5 hidden id="valor_total_servicio8" style="color:#00258e">Valor del Servicio: $70.000</h5>
                         <h5 hidden id="valor_total_kit1" style="color:#00258e">Valor del Kit 1: $30.000</h5>
                         <h5 hidden id="valor_total_kit2" style="color:#00258e">Valor del Kit 2: $50.000</h5>
                     </div>                
