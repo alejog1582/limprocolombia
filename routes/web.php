@@ -54,8 +54,10 @@ Route::post('/administracio/cupongestion/activar/{id}', 'AdministracionControlle
 Route::post('/administracio/cuponnew/save', 'AdministracionController@cuponnewsave');
 Route::get('/administracion/servicios/solicitados', 'AdministracionController@serviciosSolicitados');
 Route::post('/administracion/servicios/solicitados/asignacion/{id}', 'AdministracionController@asignacionFuncionariaServicio');
+Route::get('/administracion/servicios/solicitados/descartar/{id}', 'AdministracionController@descartarServicio');
 Route::get('/administracion/servicios/asignados', 'AdministracionController@serviciosAsignados');
 Route::get('/administracion/servicios/realizados', 'AdministracionController@serviciosRealizados');
+Route::get('/administracion/servicios/descartados', 'AdministracionController@serviciosDescartados');
 Route::post('/administracion/servicios/solicitados/cambioestado/{id}', 'AdministracionController@cambioEstadoServicio');
 Route::get('/administracion/callificacionesmales', 'AdministracionController@calificacionesMalas');
 Route::get('/administracion/callificacionesbuenas', 'AdministracionController@calificacionesBuenas');

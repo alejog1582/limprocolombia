@@ -5,7 +5,7 @@
 <div class="container">
 
 <br>
-<h1 class="text-center">Servicio de Limpieza Solicitados</h1>
+<h1 class="text-center">Servicio de Limpieza Descartados</h1>
 <a class="btn" id="boton_principal" href="/administracion">Regresar</a>
 <br><br>
 
@@ -98,33 +98,7 @@
                             <b>Requerimiento Especial:</b> {{$servicio->observacion}}
                         </div>
                     </div>
-                </li>
-                <li class="list-group-item card_secundaria">
-                    <form action="/administracion/servicios/solicitados/asignacion/{{$servicio->id}}" method="POST">
-                    {{ csrf_field() }}
-                    <input type="hidden" name="id_funcionaria" value="{{ $servicio->id }}">
-                    <div class="form-row">
-                            <div class="form-group col-md-4">
-                                <label for="id_funcionaria_asignada"><b>Id Funcionaria</b></label>
-                                <input type="text" class="form-control" id="id_funcionaria_asignada" name="id_funcionaria_asignada" @if ($errors->has('id_funcionaria_asignada')) is-invalid @endif>
-                                @if ($errors->has('id_funcionaria_asignada'))
-                                    @foreach ($errors->get('id_funcionaria_asignada') as $error)
-                                        <h6 id="mensaje_request">
-                                            <blockquote>{{ $error }}</blockquote>
-                                        </h6>
-                                    @endforeach
-                                @endif
-                            </div>
-                            
-                            <div class="form-group col-md-4 text-center">
-                                <button type="submit" class="btn" id="boton_principal">Asignar</button>
-                            </div>
-                            <div class="form-group col-md-4 text-center">
-                                <a class="btn" id="boton_principal" href="/administracion/servicios/solicitados/descartar/{{ $servicio->id }}">Descartar</a>
-                            </div>
-                        </div>
-                    </form>
-                </li>
+                </li>                
             </ul>
           </div>
         <br>

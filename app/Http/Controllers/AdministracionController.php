@@ -345,6 +345,18 @@ class AdministracionController extends Controller
 		]);
 	}
 
+	public function descartarServicio($id) {
+		$servicio = Servicio::find($id);
+
+		$servicio->estado = 'descartado';
+
+		$servicio->save();
+		
+		return view('administracion.cambioEstadoServicio', [
+			'servicio' => $servicio,			
+		]);
+	}
+
 	public function serviciosAsignados() {
 		$servicios = Servicio::where('estado', 'asignado')->get();
 		return view('administracion.serviciosAsignados', [
@@ -371,6 +383,14 @@ class AdministracionController extends Controller
 	public function serviciosRealizados() {
 		$servicios = Servicio::where('estado', 'realizado')->orWhere('estado', 'calificado')->get();
 		return view('administracion.serviciosRealizados', [
+            'servicios' => $servicios,
+        ]);
+
+	}
+
+	public function serviciosDescartados() {
+		$servicios = Servicio::where('estado', 'descartado')->get();
+		return view('administracion.serviciosDescartados', [
             'servicios' => $servicios,
         ]);
 

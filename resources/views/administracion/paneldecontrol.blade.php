@@ -43,6 +43,9 @@
             </div>
             <div class="col-md-3">
                 <a href="/administracion/servicios/realizados" type="button" class="btn btn-lg btn-block" id="boton_principal">Realizados</a>
+            </div>
+            <div class="col-md-3">
+                <a href="/administracion/servicios/descartados" type="button" class="btn btn-lg btn-block" id="boton_principal">Descartados</a>
             </div>            
         </div>
         <br>

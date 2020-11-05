@@ -34,8 +34,7 @@
                         <label for="tipo_documento">Tipo de Documento</label>
                         <select id="tipo_documento" class="form-control" name="tipo_documento" @if ($errors->has('tipo_documento')) is-invalid @endif>
                             <option selected disabled>Seleccione una Opcion</option>
-                            <option value="cc">CC</option>
-                            <option value="ce">CE</option>
+                            <option value="cc">CC</option>                            
                         </select>
                         @if ($errors->has('tipo_documento'))
                             @foreach ($errors->get('tipo_documento') as $error)

@@ -23,7 +23,7 @@
                         <li class="list-group-item card_secundaria"><b>Numeros de Contacto:</b> {{ $funcionaria->celular_contacto }} {{ $funcionaria->fijo_contacto }}</li>
                         <li class="list-group-item card_secundaria"><b>Direccion Casa:</b> {{ $funcionaria->direccion_casa }}, {{ $funcionaria->barrio_casa}}, {{ $funcionaria->ciudad}}</li>
                         <li class="list-group-item card_secundaria"><b>Edad:</b> {{ $funcionaria->edad }} || <b>Cargo:</b> {{ $funcionaria->oficio }} || <b>Experiencia:</b> {{ $funcionaria->experiencia_oficio }}</li>
-                        <li class="list-group-item card_secundaria"><div class="row"><div class="col-sm text-center"><a class="btn" id="boton_principal" href="/administracion/entrevista/{{ $funcionaria->id }}">Entrevistar</a></div></div></li>
+                        <li class="list-group-item card_secundaria"><div class="row"><div class="col-md-6 text-center"><a class="btn" id="boton_principal" href="/administracion/entrevista/{{ $funcionaria->id }}">Entrevistar</a></div><div class="col-md-6 text-center"><a class="btn" id="boton_principal" href="/administracion/entrevistas/descartar/{{ $funcionaria->id }}">Descartar</a></div></div></li>
                     </ul>
                 </div>
                 <br>
