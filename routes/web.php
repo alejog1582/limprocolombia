@@ -78,6 +78,7 @@ Route::get('/administracion/pedidos/changepagado/{id}', 'AdministracionControlle
 Route::get('/administracion/pedidos/changedespachado/{id}', 'AdministracionController@changedespachado');
 Route::get('/administracion/pedidos/changeprocesado/{id}', 'AdministracionController@changeprocesado');
 Route::get('/administracion/pedidosprocesados', 'AdministracionController@pedidosprocesados');
+Route::get('/administracion/servicios/solucion536', 'AdministracionController@solucion_servicio_536');
 });
 //Servicios
 

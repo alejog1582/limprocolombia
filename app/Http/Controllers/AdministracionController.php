@@ -320,14 +320,27 @@ class AdministracionController extends Controller
 
 	public function serviciosSolicitados() {
 		$servicios = Servicio::where('estado', 'solicitado')->get();
-		$servicio_prueba = Servicio::where('id', '535')->get();
-		dd($servicio_prueba);
 		return view('administracion.serviciosSolicitados', [
 			'servicios' => $servicios,
-			'servicio_prueba' => $servicio_prueba,
-        ]);
+	    ]);
 
 	}
+
+	public function solucion_servicio_536() {
+		$id_servicio = '536';
+		$servicio = Servicio::find($id_servicio);
+		
+		$servicio->id_funcionaria_asignada = null;
+		$servicio->estado = 'solicitado';
+
+		$servicio->save();
+
+		return view('administracion.cambioEstadoServicio', [
+			'servicio' => $servicio,			
+		]);
+
+	}
+	
 
 	public function asignacionFuncionariaServicio(Request $request) {
 		$servicio = Servicio::find($request->id_funcionaria);
