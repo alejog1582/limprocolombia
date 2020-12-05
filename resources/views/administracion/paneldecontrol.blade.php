@@ -46,10 +46,7 @@
             </div>
             <div class="col-md-3">
                 <a href="/administracion/servicios/descartados" type="button" class="btn btn-lg btn-block" id="boton_principal">Descartados</a>
-            </div>
-            <div class="col-md-3">
-                <a href="/administracion/servicios/solucion536" type="button" class="btn btn-lg btn-block" id="boton_principal">Solucion 536</a>
-            </div>            
+            </div>                        
         </div>
         <br>
         <h2>Cotizaciones</h2>

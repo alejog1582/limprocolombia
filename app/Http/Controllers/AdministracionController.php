@@ -326,21 +326,7 @@ class AdministracionController extends Controller
 
 	}
 
-	public function solucion_servicio_536() {
-		$id_servicio = '536';
-		$servicio = Servicio::find($id_servicio);
 		
-		$servicio->id_funcionaria_asignada = null;
-		$servicio->estado = 'solicitado';
-
-		$servicio->save();
-
-		return view('administracion.cambioEstadoServicio', [
-			'servicio' => $servicio,			
-		]);
-
-	}
-	
 
 	public function asignacionFuncionariaServicio(Request $request) {
 		$servicio = Servicio::find($request->id_funcionaria);
