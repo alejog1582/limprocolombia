@@ -320,7 +320,7 @@ class AdministracionController extends Controller
 
 	public function serviciosSolicitados() {
 		$servicios = Servicio::where('estado', 'solicitado')->get();
-		$servicio_prueba = Servicio::where('id', '537')->get();
+		$servicio_prueba = Servicio::where('id', '536')->get();
 		dd($servicio_prueba);
 		return view('administracion.serviciosSolicitados', [
 			'servicios' => $servicios,
