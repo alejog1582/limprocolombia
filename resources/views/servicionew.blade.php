@@ -94,11 +94,11 @@
                     </div>
                     <div class="card-body card_secundaria">
                         <h5 class="card-title">Limpieza Basica</h5>
-                        <p class="card-text">Recomendado para espacios menores de 70 metros cuadrados. El kit esta comupesto por: 1 Clorox, 1 Limpiavidrios, 3 Paños para limpiar, 1 producto limpiapisos (Baldosa o piso laminado). </p>
+                        <p class="card-text">Recomendado para una limpieza basica. El kit esta compuesto por: 1 Blanqueador por 2.000 ML, 1 Desengrasante por 500 ML, 1 Limpiavidrios por 500 ML, 1 Limpia pisos bicarbonato por 1.000 ML, Paños para limpiar por 4 unidades, 1 Esponja Multiusos, 1 Limpiador de Juntas por 500 ML.</p>
 
                     </div>
                     <div class="card-footer card_principal">
-                        Valor $ 30.000
+                        Valor $ 23.000
                     </div>
                 </div>
             </div>
@@ -109,10 +109,10 @@
                     </div>
                     <div class="card-body card_secundaria">
                         <h5 class="card-title">Limpieza Profunda</h5>
-                        <p class="card-text">Recomendado para espacios mayores de 70 metros cuadrados. El kit esta comupesto por: 1 Clorox, 1 desengrasante, 1 Limpiavidrios, 3 Paños para limpiar, 1 producto limpiapisos (Baldosa o piso laminado), jabon en polvo. </p>
+                        <p class="card-text">Recomendado para una limpieza profunda. El kit esta compuesto por: 1 Blanqueador por 2.000 ML, 1 Desengrasante por 500 ML, 1 Limpiavidrios por 500 ML, 1 Limpia pisos bicarbonato por 1.000 ML, Paños para limpiar por 4 unidades, 1 Vinagre por 500 ML, 1 Esponja Multiusos, 1 Limpiador de Juntas por 500 ML.</p>
                     </div>
                     <div class="card-footer card_principal">
-                        Valor $ 50.000
+                        Valor $ 30.000
                     </div>
                 </div>
             </div>
@@ -398,8 +398,8 @@
                         <label for="kit_productos"><b>Adquirir Kit de Productos</b></label>
                         <select id="kit_productos" class="form-control" name="kit_productos" @if ($errors->has('kit_productos')) is-invalid @endif>
                             <option selected value="no">No</option>
-                            <option value="kit1">Kit 1 ($30.000)</option>
-                            <option value="kit2">Kit 2 ($50.000)</option>                            
+                            <option value="kit1">Kit 1 ($23.000)</option>
+                            <option value="kit2">Kit 2 ($30.000)</option>                            
                         </select>
                         @if ($errors->has('kit_productos'))
                             @foreach ($errors->get('kit_productos') as $error)
@@ -438,8 +438,8 @@
                     <div class="form-group col-md-12">
                         <h5 hidden id="valor_total_servicio4" style="color:#00258e">Valor del Servicio: $47.000</h5>
                         <h5 hidden id="valor_total_servicio8" style="color:#00258e">Valor del Servicio: $72.000</h5>
-                        <h5 hidden id="valor_total_kit1" style="color:#00258e">Valor del Kit 1: $30.000</h5>
-                        <h5 hidden id="valor_total_kit2" style="color:#00258e">Valor del Kit 2: $50.000</h5>
+                        <h5 hidden id="valor_total_kit1" style="color:#00258e">Valor del Kit 1: $23.000</h5>
+                        <h5 hidden id="valor_total_kit2" style="color:#00258e">Valor del Kit 2: $30.000</h5>
                     </div>                
                 </div>
                 <div class="form-row">

@@ -45,10 +45,10 @@ class ServiciosController extends Controller
             $hora_inicio = '8 am';
         }
         if ($kit == 'kit1') {
-            $valor_kit = 30000;
+            $valor_kit = 23000;
         }
         if ($kit == 'kit2') {
-            $valor_kit = 50000;
+            $valor_kit = 30000;
         }
         if ($canje_usuario == null) {
             if ($valor_kit <> null) {
