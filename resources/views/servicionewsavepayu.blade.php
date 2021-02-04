@@ -64,7 +64,7 @@
                 <li class="list-group-item card_secundaria">
                     <div class="row">
                         <div class="col-md-12">
-                            <b>Kit de Aseo:</b> Kit 1 $ 30.000
+                            <b>Kit de Aseo:</b> Kit 1 $ 23.000
                         </div>
                     </div>
                 </li>                    
@@ -73,7 +73,7 @@
                 <li class="list-group-item card_secundaria">
                     <div class="row">
                         <div class="col-md-12">
-                            <b>Kit de Aseo:</b> Kit 2 $ 50.000
+                            <b>Kit de Aseo:</b> Kit 2 $ 30.000
                         </div>
                     </div>
                 </li>                    
