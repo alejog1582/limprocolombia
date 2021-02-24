@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Mail;
 use App\Mail\AsignacionCliente;
 use App\Mail\AsignacionFuncionaria;
 use App\Mail\CalificacionCliente;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Imports\ServiciosCargue;
 
 class AdministracionController extends Controller
 {
@@ -395,6 +397,21 @@ class AdministracionController extends Controller
 		return view('administracion.serviciosDescartados', [
             'servicios' => $servicios,
         ]);
+
+	}
+
+	public function serviciosCargue() {
+		return view('administracion.serviciosCargue');
+
+	}
+
+	public function serviciosCargueSave(Request $request) {
+
+		$file = $request->file('file');
+
+		Excel::import(new ServiciosCargue, $file);
+
+		return back()->with('message', 'Cargue Exitoso');
 
 	}
 

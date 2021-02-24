@@ -33,20 +33,23 @@
         <h2>Servicios</h2>
         <br>
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <a href="/administracion/servicios/solicitados" type="button" class="btn btn-lg btn-block" id="boton_principal">Solicitados</a>
                 <br>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <a href="/administracion/servicios/asignados" type="button" class="btn btn-lg btn-block" id="boton_principal">Asignados</a>
                 <br>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <a href="/administracion/servicios/realizados" type="button" class="btn btn-lg btn-block" id="boton_principal">Realizados</a>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <a href="/administracion/servicios/descartados" type="button" class="btn btn-lg btn-block" id="boton_principal">Descartados</a>
-            </div>                        
+            </div> 
+            <div class="col-md-2">
+                <a href="/administracion/servicios/cargue" type="button" class="btn btn-lg btn-block" id="boton_principal">Cargue</a>
+            </div>                       
         </div>
         <br>
         <h2>Cotizaciones</h2>

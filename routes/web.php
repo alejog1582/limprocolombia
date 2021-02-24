@@ -58,6 +58,8 @@ Route::get('/administracion/servicios/solicitados/descartar/{id}', 'Administraci
 Route::get('/administracion/servicios/asignados', 'AdministracionController@serviciosAsignados');
 Route::get('/administracion/servicios/realizados', 'AdministracionController@serviciosRealizados');
 Route::get('/administracion/servicios/descartados', 'AdministracionController@serviciosDescartados');
+Route::get('/administracion/servicios/cargue', 'AdministracionController@serviciosCargue');
+Route::post('/administracion/servicios/cargue/save', 'AdministracionController@serviciosCargueSave');
 Route::post('/administracion/servicios/solicitados/cambioestado/{id}', 'AdministracionController@cambioEstadoServicio');
 Route::get('/administracion/callificacionesmales', 'AdministracionController@calificacionesMalas');
 Route::get('/administracion/callificacionesbuenas', 'AdministracionController@calificacionesBuenas');
