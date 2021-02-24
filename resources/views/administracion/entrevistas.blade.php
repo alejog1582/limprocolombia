@@ -67,6 +67,9 @@
                                 <div class="col-md-6"><b>P. Aseo:</b> {{ $funcionaria->productos_aseo }}</div>
                                 <div class="col-md-6"><b>M. Alimentos:</b> {{ $funcionaria->manipulacion_alimentos }} || {{ $funcionaria->fecha_manipulacion_alimentos }}</div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-12"><b>Concepto Entrevista</b> {{ $funcionaria->concepto_entrevista }}</div>
+                            </div>
                             <hr>
                             <div class="row">
                                 @if ($funcionaria->examenes_medicos == null)
