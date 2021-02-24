@@ -338,9 +338,11 @@ class AdministracionController extends Controller
 
 		$servicio->save();
 		
+		Mail::to($servicio->funcionaria_asignada->email)->send(new AsignacionFuncionaria($servicio));
+		
+
 		if ($servicio->metodo_pago <> 'plan') {
 			Mail::to($servicio->email)->send(new AsignacionCliente($servicio));
-			Mail::to($servicio->funcionaria_asignada->email)->send(new AsignacionFuncionaria($servicio));
 		}
 
 		
