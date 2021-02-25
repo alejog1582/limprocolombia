@@ -10,7 +10,7 @@
                 <div class="card-body text-center">
                     Se a cambiado el estado del servicio con ID: {{ $servicio->id }} exitosamente.
                     <br><br>
-                    <a class="btn" id="boton_principal" href="/administracion">Aceptar</a>
+                    <a class="btn" id="boton_principal" href="/administracion/servicios/asignados">Aceptar</a>
                 </div>
             </div>
             <br>
