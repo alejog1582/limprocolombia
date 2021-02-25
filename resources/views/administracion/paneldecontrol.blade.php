@@ -49,6 +49,19 @@
             </div> 
             <div class="col-md-2">
                 <a href="/administracion/servicios/cargue" type="button" class="btn btn-lg btn-block" id="boton_principal">Cargue</a>
+            </div>
+            <div class="col-md-2">
+                <form action="/administracion/servicios/consulta" method="get">
+                    {{ csrf_field() }}
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="id_servicio_consulta" name="id_servicio_consulta">
+                        </div>
+                        <div class="form-group col-md-4 text-center">
+                            <button type="submit" class="btn" id="boton_principal">Consultar</button>
+                        </div>
+                    </div>
+                </form>
             </div>                       
         </div>
         <br>

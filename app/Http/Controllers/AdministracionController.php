@@ -417,6 +417,17 @@ class AdministracionController extends Controller
 
 	}
 
+	public function serviciosConsulta(Request $request) {
+		$id_servicio_consulta = $request->id_servicio_consulta;
+		$servicios = Servicio::where('id', '>=', $id_servicio_consulta)->get();
+		
+		return view('administracion.serviciosconsulta', [
+			'servicios' => $servicios,
+			'id_servicio_consulta' => $id_servicio_consulta,
+
+		]);
+	}
+
 	public function calificacionesMalas() {
 		$calificaciones = Calificacione::where('cal_total', '<', 3)->get();
 		
