@@ -10,7 +10,7 @@
 <br><br>
 
 <table class="table">
-    <thead class="thead-dark">
+    <thead class="card_principal">
       <tr>
         <th scope="col">ID</th>
         <th scope="col">M.Pago</th>
@@ -22,6 +22,9 @@
         <th scope="col">Email</th>
         <th scope="col">Valor</th>
         <th scope="col">Estado</th>
+        <th scope="col">Funcionaria</th>
+        <th scope="col">Calificacion</th>
+
       </tr>
     </thead>
     <tbody>
@@ -37,6 +40,16 @@
                 <td>{{$servicio->email}}</td>
                 <td>{{$servicio->valor_plan}}</td>
                 <td>{{$servicio->estado}}</td>
+                <td>
+                  @if ($servicio->funcionaria_asignada)
+                    {{$servicio->funcionaria_asignada->nombre_funcionaria}}
+                  @endif
+                </td>
+                <td>
+                  @if ($servicio->calificacion)
+                    {{$servicio->calificacion->cal_total}}
+                  @endif
+                </td>
             </tr>
         @endforeach
     </tbody>
