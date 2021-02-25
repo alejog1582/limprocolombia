@@ -13,7 +13,7 @@
             <div class="card-body text-center">
                 La funcionaria {{ $servicio->funcionaria_asignada->nombre_funcionaria_abreviado }} a sido asignada con exito al servicio ID {{$servicio->id}}
                 <br><br>
-                <a class="btn" id="boton_principal" href="/administracion">Aceptar</a>
+                <a class="btn" id="boton_principal" href="/administracion/servicios/solicitados">Aceptar</a>
             </div>
         </div>
         <br>

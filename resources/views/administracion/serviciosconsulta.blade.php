@@ -14,6 +14,7 @@
       <tr>
         <th scope="col">ID</th>
         <th scope="col">M.Pago</th>
+        <th scope="col">Fecha</th>
         <th scope="col">T.Doc</th>
         <th scope="col">Documento</th>
         <th scope="col">Cliente</th>
@@ -30,8 +31,9 @@
     <tbody>
         @foreach ($servicios as $servicio)
             <tr>
-                <th scope="row">{{$servicio->id}}</th>
-                <th scope="row">{{$servicio->metodo_pago}}</th>
+                <th>{{$servicio->id}}</th>
+                <th>{{$servicio->metodo_pago}}</th>
+                <th>{{$servicio->fecha_servicio}}</th>
                 <td>{{$servicio->tipo_documento}}</td>
                 <td>{{$servicio->numero_documento}}</td>
                 <td>{{$servicio->nombre_cliente}}</td>
