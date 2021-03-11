@@ -106,7 +106,7 @@
                     <div class="form-row">
                             <div class="form-group col-md-4">
                                 <label for="id_funcionaria_asignada"><b>Id Funcionaria</b></label>
-                                <input type="text" class="form-control" id="id_funcionaria_asignada" name="id_funcionaria_asignada" @if ($errors->has('id_funcionaria_asignada')) is-invalid @endif>
+                                <input required type="text" class="form-control" id="id_funcionaria_asignada" name="id_funcionaria_asignada" @if ($errors->has('id_funcionaria_asignada')) is-invalid @endif>
                                 @if ($errors->has('id_funcionaria_asignada'))
                                     @foreach ($errors->get('id_funcionaria_asignada') as $error)
                                         <h6 id="mensaje_request">
