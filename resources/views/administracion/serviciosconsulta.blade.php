@@ -52,7 +52,7 @@
                     {{$servicio->calificacion->cal_total}}
                   @endif
                 </td>
-                <td>
+                <!--<td>
                   @if ($servicio->funcionaria_asignada)
                     {{$servicio->id_funcionaria_asignada}}
                   @endif
@@ -65,7 +65,7 @@
                             <button type="submit" class="btn" id="boton_principal">Actualizar</button>
                     </div>
                 </form>
-                </td>
+                </td>-->
             </tr>
         @endforeach
     </tbody>
