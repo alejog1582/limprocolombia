@@ -48,14 +48,23 @@
                   @endif
                 </td>
                 <td>
+                  @if ($servicio->calificacion)
+                    {{$servicio->calificacion->cal_total}}
+                  @endif
+                </td>
+                <td>
                   @if ($servicio->funcionaria_asignada)
                     {{$servicio->id_funcionaria_asignada}}
                   @endif
                 </td>
                 <td>
-                  @if ($servicio->calificacion)
-                    {{$servicio->calificacion->cal_total}}
-                  @endif
+                  <form action="/administracion/servicios/consulta/actualizacionid" method="get">
+                    {{ csrf_field() }}
+                          <input type="hidden" name="id_servicio" value="{{$servicio->id}}">
+                            <input type="text" class="form-control" id="id_funcionaria_actualizada" name="id_funcionaria_actualizada">
+                            <button type="submit" class="btn" id="boton_principal">Actualizar</button>
+                    </div>
+                </form>
                 </td>
             </tr>
         @endforeach

@@ -428,6 +428,18 @@ class AdministracionController extends Controller
 		]);
 	}
 
+	public function actualizacionidfuncionaria(Request $request) {
+		$id_servicio = $request->id_servicio;
+		$id_funcionaria_actualizada = $request->id_funcionaria_actualizada;
+		$servicio = Servicio::find($id_servicio);
+
+		$servicio->id_funcionaria_asignada = $id_funcionaria_actualizada;
+		
+		$servicio->save();		
+		
+		return back();
+	}
+
 	public function calificacionesMalas() {
 		$calificaciones = Calificacione::where('cal_total', '<', 3)->get();
 		
