@@ -48,6 +48,11 @@
                   @endif
                 </td>
                 <td>
+                  @if ($servicio->funcionaria_asignada)
+                    {{$servicio->id_funcionaria_asignada}}
+                  @endif
+                </td>
+                <td>
                   @if ($servicio->calificacion)
                     {{$servicio->calificacion->cal_total}}
                   @endif
