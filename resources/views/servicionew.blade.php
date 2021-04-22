@@ -178,6 +178,7 @@
                         2021/04/01,
                         2021/04/02,
                         2021/04/22,
+                        2021/04/23,
                         2021/05/01,
                         2021/05/17"
                         data-date-format="yyyy/mm/dd" type="text" placeholder="Selecciona Fecha del Servicio" class="form-control" id="fecha_servicio" name="fecha_servicio" data-provide="datepicker"  data-date-days-of-week-disabled=",0" data-date-today-highlight="true" data-date-week-start="1" data-date-autoclose="true"  @if ($errors->has('fecha_servicio')) is-invalid @endif>
