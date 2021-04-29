@@ -37,11 +37,11 @@ class ServiciosController extends Controller
         $valor_kit = null;
             
         if ($plan == '4') {
-            $valor_plan = 47000;
+            $valor_plan = 55000;
             $hora_inicio = $request->hora_inicio;
         }
         if ($plan == '8') {
-            $valor_plan = 72000;
+            $valor_plan = 79000;
             $hora_inicio = '8 am';
         }
         if ($kit == 'kit1') {
