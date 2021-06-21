@@ -31,6 +31,7 @@ class ServiciosCargue implements ToModel
             'metodo_pago' => $row[13],
             'kit_productos' => $row[14],
             'estado' => $row[15],
+            'id_funcionaria_asignada' => $row[16],
         ]);
     }
 }
