@@ -9,8 +9,11 @@
     <br><br>
     @foreach ($funcionarias as $funcionaria)
         <div class="row">
-            <div class="col-md-6">    
+            <div class="col-md-3">    
                 <b>ID:</b> {{ $funcionaria->id }}
+            </div>
+            <div class="col-md-4">    
+                <b>ID:</b> {{ $funcionaria->nombre_funcionaria }}
             </div>          
         </div>
     @endforeach
