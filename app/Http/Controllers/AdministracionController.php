@@ -216,6 +216,7 @@ class AdministracionController extends Controller
 		$calificaciones_buenas = 0;
 		$suma_calificacion = 0;
 		$resultado_calificacion =0;
+		dd($funcionarias);
 		return view('administracion.funcionarias', [
 			'funcionarias' => $funcionarias,
 			'calificaciones' => $calificaciones,
