@@ -45,6 +45,7 @@ Route::post('/administracion/entrevistasedit/save',  'AdministracionController@e
 Route::get('/administracion/entrevistas/descartar/{id}', 'AdministracionController@entrevistasdescartar');
 Route::get('/administracion/funcionarias', 'AdministracionController@funcionarias');
 Route::get('/administracion/personalactivo', 'AdministracionController@personalactivo');
+Route::get('/administracion/cambioestadofuncionarias', 'AdministracionController@cambioestadofuncionarias');
 Route::get('/administracion/funcionarias/desvincular/{id}', 'AdministracionController@desvincular');
 Route::post('/administracion/funcionarias/desvincular/save',  'AdministracionController@desvincularsave');
 Route::get('/administracion/exfuncionarias', 'AdministracionController@exfuncionarias');

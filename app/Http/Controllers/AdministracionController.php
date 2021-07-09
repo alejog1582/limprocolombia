@@ -216,7 +216,6 @@ class AdministracionController extends Controller
 		$calificaciones_buenas = 0;
 		$suma_calificacion = 0;
 		$resultado_calificacion =0;
-		dd($funcionarias);
 		return view('administracion.funcionarias', [
 			'funcionarias' => $funcionarias,
 			'calificaciones' => $calificaciones,
@@ -235,6 +234,18 @@ class AdministracionController extends Controller
 			'funcionarias' => $funcionarias,
 		
 		]);
+	}
+
+	public function cambioestadofuncionarias() {
+		$funcionarias = Funcionaria::where('estado', 'funcionaria')->get();
+		foreach ($funcionarias as $funcionaria) {
+			$funcionaria->estado = 'arreglo';
+			
+			$funcionaria->save;
+			dd($funcionaria);
+		}
+		
+		return back();
 	}
 
 	public function desvincular($id) {
