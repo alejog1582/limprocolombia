@@ -228,6 +228,14 @@ class AdministracionController extends Controller
 		]);
 	}
 
+	public function personalactivo() {
+		$funcionarias = Funcionaria::where('estado', 'funcionaria')->get();
+		return view('administracion.personalactivo', [
+			'funcionarias' => $funcionarias,
+		
+		]);
+	}
+
 	public function desvincular($id) {
 		$funcionaria = Funcionaria::find($id);
 

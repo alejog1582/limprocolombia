@@ -3,7 +3,6 @@
 @section('content')
 
 <div class="container">
-
     <br>
     <h1 class="text-center">Funcionarias Limpro Colombia</h1>
     <a class="btn" id="boton_principal" href="/administracion">Regresar</a>
@@ -105,7 +104,8 @@
                                     @endforeach {{ $calificaciones_malas }} 
                                     @php                                        
                                         $calificaciones_malas=0;//sumanos los valores, ahora solo fata mostrar dicho valor
-                                    @endphp</div>
+                                    @endphp
+                                    </div>
                                     <div class="col-md-6"><b>Servicios Buenos:</b>
                                         @foreach ($calificaciones as $calificacion)
                                         @if ($funcionaria->id == $calificacion->id_empleado)
@@ -121,7 +121,6 @@
                                     @endphp</div>                                                                                                
                                 </div>
                                 <hr>
-                                </div>
                                 <div class="row">
                                     <div class="col-md-6 text-center">
                                         <a href="/administracion/entrevistas/{{$funcionaria->id}}" type="button" class="btn" id="boton_principal">Gestionar</a>
@@ -132,10 +131,10 @@
                                 </div>
                             </div>
                         </div>
-                    @endif    
                     </div>    
-                @endforeach
+                @endif    
             </div>
+            @endforeach
         </div>
         <br>
     </div>
