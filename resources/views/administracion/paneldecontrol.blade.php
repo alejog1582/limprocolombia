@@ -28,12 +28,12 @@
             <div class="col-md-2">
                 <a href="/administracion/entrevistasdescartadas" type="button" class="btn btn-lg btn-block" id="boton_principal">Descartadas</a>
             </div>
-            <div class="col-md-2">
+            <!--<div class="col-md-2">
                 <a href="/administracion/personalactivo" type="button" class="btn btn-lg btn-block" id="boton_principal">Personal Activo</a>
             </div>
             <div class="col-md-2">
                 <a href="/administracion/cambioestadofuncionarias" type="button" class="btn btn-lg btn-block" id="boton_principal">Cambio estado masivo</a>
-            </div>
+            </div>-->
         </div> 
         <br>
         <h2>Servicios</h2>
