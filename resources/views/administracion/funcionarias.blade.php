@@ -60,6 +60,37 @@
                                         <div class="col-md-6"><b>Fecha de Vinculacion:</b> {{ $funcionaria->fecha_vinculacion }}</div>
                                     </div>
                                     <hr>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-6"><b>Numero de Servicios :</b> 
+                                        @foreach ($servicios as $servicio)
+                                            @if ($funcionaria->id == $servicio->id_funcionaria_asignada)
+                                                @php                                        
+                                                    $numero_servicios=$numero_servicios+1;//Cuenta el numero de registros
+                                                @endphp
+                                            @endif       
+                                        @endforeach {{ $numero_servicios }} 
+                                        @php                                        
+                                            $numero_servicios=0;//sumanos los valores, ahora solo fata mostrar dicho valor
+                                        @endphp
+                                        </div>
+                                        <div class="col-md-6"><b>Calificacion:</b> 
+                                        @foreach ($calificaciones as $calificacion)
+                                            @if ($funcionaria->id == $calificacion->id_empleado)
+                                                @php                                        
+                                                    $numero_servicios=$numero_servicios+1;
+                                                    $suma_calificacion+=$calificacion->cal_total;//Cuenta el numero de registros
+                                                    $resultado_calificacion = round($suma_calificacion / $numero_servicios,1);
+                                                @endphp
+                                            @endif       
+                                        @endforeach {{ $resultado_calificacion }} <a style="font-size: 32px; color:#7AB518" href="#!">&#9733;</a>
+                                        @php                                        
+                                            $numero_servicios=0;
+                                            $suma_calificacion=0;
+                                            $resultado_calificacion=0;
+                                        @endphp
+                                        </div>                                                                
+                                    </div>
                                     <div class="row">
                                         <div class="col-md-6 text-center">
                                             <a href="/administracion/entrevistas/{{$funcionaria->id}}" type="button" class="btn" id="boton_principal">Gestionar</a>
